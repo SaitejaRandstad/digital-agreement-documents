@@ -1,11 +1,15 @@
-// src/App.js
 import React from 'react';
+import './App.css';
+import AgreementForm from './components/AgreementForm';
+import AgreementList from './components/AgreementList';
 
 function App() {
   return (
     <div className="App">
-      <header className="bg-blue-500 text-white p-4">
-        <h1 className="text-3xl">Hello naa mokam</h1>
+      <header className="App-header">
+        <h1>Agreement Management System</h1>
+        <AgreementForm />
+        <AgreementList />
       </header>
     </div>
   );
